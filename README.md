@@ -13,19 +13,19 @@ at `skills/<skill-name>/SKILL.md` and declares a unique `name` and
 Install the collection:
 
 ```bash
-npx skills add valency-oss/valency-skills
+npx skills@latest add valency-oss/valency-skills
 ```
 
 List the available skills without installing them:
 
 ```bash
-npx skills add valency-oss/valency-skills --list
+npx skills@latest add valency-oss/valency-skills --list
 ```
 
 Install one skill:
 
 ```bash
-npx skills add valency-oss/valency-skills --skill valency-profile
+npx skills@latest add valency-oss/valency-skills --skill valency-profile
 ```
 
 Add `-g` to install at user scope instead of into the current project. The CLI
