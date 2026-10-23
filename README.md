@@ -1,3 +1,12 @@
+> [!WARNING]
+> **Deprecated.** This repository is archived and no longer updated. Its skills call author tools by names Valency Bond no longer lists. The same seven skills, kept current, now ship from [valency-oss/valency-connectors](https://github.com/valency-oss/valency-connectors):
+>
+> ```bash
+> npx skills@latest add valency-oss/valency-connectors
+> ```
+>
+> Skill names drop the `valency-` prefix there, so `--skill valency-profile` becomes `--skill profile`.
+
 # Valency Agent Skills
 
 Portable research-corpus workflows for AI coding agents that use the
